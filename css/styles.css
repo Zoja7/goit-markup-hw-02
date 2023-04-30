@@ -29,8 +29,9 @@ button {
 
 body {
     font-family: var(--main-font-family);
-    color: var(--accent-color);
+    color: var(--third-color);
     font-size: 16px;
+    background-color: var(--fourth-color);
 }
 /* Components */
 
@@ -47,6 +48,9 @@ body {
     
 }
 
+.contacts{
+    font-style: normal;
+}
 .contact-list-link{
     font-size: 16px;
     font-style: normal;
@@ -58,12 +62,14 @@ body {
 .contact-list-link:focus{
     color: var(--hover-color);
 }
-
+.team{
+background-color: var(--second-color);
+}
 .page-logo-web{
     font-family:var(--second-font-family);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
@@ -73,7 +79,7 @@ body {
     font-family: var(--second-font-family);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--accent-color);
@@ -82,10 +88,10 @@ body {
     background-color: var(--accent-color);
 }
 .page-logo-light{
-    font-family:var(--second-font-family);
+    font-family: var(--second-font-family);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-color);   
@@ -105,11 +111,11 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--fourth-color);
-    white-space: pre-line;
+    text-align: center;
 }
 
 .hero>.modal-button {
-    background: var(--logo-color);
+    background-color: var(--logo-color);
 
     font-family:inherit;
     font-weight: 500;
@@ -119,47 +125,64 @@ body {
     color: var(--fourth-color);
 }
 .hero>.modal-button:hover,
-.hero>.modal-button:active{
-    background: var(--hover-color);
+.hero>.modal-button:focus{
+    background-color: var(--hover-color);
 }
 
 .filter-button{
-    background: var(--second-color);
+
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height:1.5;
-
     text-align: center;
     letter-spacing: 0.04em;
-    
+    background-color: var(--second-color);
     color:var(--logo-color);
 }
 
 .filter-button:hover,
-.filter-button:active{
-    background: var(--hover-color);
+.filter-button:focus{
     color: var(--fourth-color);
+    background-color: var(--hover-color);
 }
 
+.title-first-h{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--accent-color);
+}
 .title-first{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+.title-second-h{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
 }
 .title-second{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--accent-color);
 }
-.description {
+.description{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--third-color);
 }
 .team-gallery-item{
-    background:var(--second-color);
+    background-color: var(--fourth-color);
 }
